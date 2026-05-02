@@ -3,7 +3,7 @@ import htmlLogo from './assets/tech_logo/html.png';
 import cssLogo from './assets/tech_logo/css.png';
 import javascriptLogo from './assets/tech_logo/javascript.png';
 import reactjsLogo from './assets/tech_logo/reactjs.png';
-import tailwindcssLogo from './assets/tech_logo/tailwin.png';
+import tailwincssLogo from './assets/tech_logo/Tailwin.png';
 import bootstrapLogo from './assets/tech_logo/bootstrap.png';
 import nodejsLogo from './assets/tech_logo/nodejs.png';
 import expressjsLogo from './assets/tech_logo/express.png';
@@ -42,7 +42,7 @@ export const SkillsInfo = [
       { name: 'CSS', logo: cssLogo },
       { name: 'JavaScript', logo: javascriptLogo },
       { name: 'React JS', logo: reactjsLogo },
-      { name: 'Tailwind CSS', logo: tailwindcssLogo },
+      { name: 'Tailwin CSS', logo: tailwincssLogo },
       { name: 'Bootstrap', logo: bootstrapLogo },
     ],
   },

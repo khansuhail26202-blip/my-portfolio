@@ -25,6 +25,7 @@ import newtonschoolLogo from './assets/company_logo/newtonschool_logo.png';
 // Education Section Logo's
 import BCA from './assets/education_logo/BCA.jpeg';
 import school from './assets/education_logo/school.jpeg';
+import MCA from './assets/education_logo/MCA.jpeg';
 
 // Project Section Logo's
 import Amazon1 from './assets/work_logo/Amazon1.png';
@@ -75,13 +76,22 @@ export const SkillsInfo = [
 ];
   
   export const education = [
+    {
+      id: 0,
+      img: MCA,
+      school: "Mangalayatan University, Aligarh",
+      date: "2026 - 2028",
+      grade: "Expected - 2028",
+      desc: " Pursuing MCA to deepen my expertise in advanced computer science and software engineering. As an aspiring Full-Stack Web Developer, my goal is to leverage this advanced knowledge to build scalable, high-performance web applications and master enterprise-level software architecture.",
+      degree: "Master of Computer Applications - MCA (Full Stack Web Developer)",
+    },
     
     {
       id: 1,
       img: BCA,
       school: "IIMT College, Aligarh",
       date: "2023 - 2026",
-      grade: "Expected - 2026",
+      grade: "70%",
       desc: "I Am currently pursuing Bachelor of Computer Application - (BCA) from IIMT College, Aligarh. I have focused on a variety of subjects that deepened my understanding of computing and technology. I have gained practical insights into the world of web development. My time at college has allowed me to work on projects that apply theoretical concepts to real world problems. ",
       degree: "Bachelor of Computer Applications - BCA (Computer Science)",
     },

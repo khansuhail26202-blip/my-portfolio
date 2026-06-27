@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactTypingEffect from 'react-typing-effect';
 import Tilt from 'react-parallax-tilt';
-import profileImage from '../../assets/suhail.jpg';
+import profileImage from '../../assets/Suhail_khan.jpeg';
 
 const About = () => {
   return (
@@ -27,7 +27,7 @@ const About = () => {
               text={[
                 'Fullstack Developer',
                 'App Developer',
-                'UI/UX Designer',
+                'MCA Student',
                 'Coder',
               ]}
               speed={100}
@@ -41,13 +41,13 @@ const About = () => {
           </h3>
           {/* About Me Paragraph */}
           <h3 className="text-base sm:text-lg md:text-lg text-gray-400 mb-10 mt-8 leading-relaxed">
-            <i>I am a final-year BCA student at IIMT, Aligarh. I am an aspiring Full-Stack Developer with hand-on experience in React.js, Node.js and MongoDB.
+            <i>I am a  MCA student at Mangalayatan University, Aligarh. I am an aspiring Full-Stack Developer with hand-on experience in React.js,Tailwind CSS, Node.js and MongoDB.
             I have built practical project like a Resume Automation Tool and Contact Management App. These Projects
             helped me understand how to solve real-world problems using clean, efficient code solutions.</i>
           </h3>
           {/* Resume Button */}
           <a
-            href="https://drive.google.com/file/d/1RpteQHpuMG2e8kDy0boqx8wkjg-o4HHM/view?usp=drivesdk"
+            href="https://drive.google.com/file/d/1m_0pgYHGxeImbh1KD4E_uwzZMZU24iRj/view?usp=drivesdk"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block text-white py-3 px-8 rounded-full mt-5 text-lg font-bold transition duration-300 transform hover:scale-105"
@@ -63,7 +63,7 @@ const About = () => {
         {/* Right Side */}
         <div className="md:w-1/2 flex justify-center md:justify-end">
           <Tilt
-            className="w-48 h-48 sm:w-64 sm:h-64 md:w-[30rem] md:h-[30rem] border-4 border-purple-700 rounded-full"
+            className="w-48 h-48 sm:w-64 sm:h-64 md:w-[20rem] md:h-[22rem] border-4 border-purple-700 rounded-full"
             tiltMaxAngleX={20}
             tiltMaxAngleY={20}
             perspective={1000}
